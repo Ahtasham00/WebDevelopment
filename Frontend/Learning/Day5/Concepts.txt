@@ -1,12 +1,20 @@
+
+
+
+
+
+
+
+
 If we want to call function without parameter we can simply call
 
-{checker}
+{functionName}
 
 =================In Case of onclick event============================
 
 In case of parameter we can not direclty call function by providing parameter  
 
 we can not pass directly paramter in function like
-{checker("some parameter")}   //invalid sysntax
+{FunctionName("some parameter")}   //invalid sysntax
 but by using call back we can do so
-{()=>checker("some parameter")}   //valid 
+{()=>FunctionName("some parameter")}   //valid 
